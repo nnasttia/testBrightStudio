@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="site-2">
+
+    <header id="header2" class="site-header">
+        <div class="header-banner">€2 Home delivery within 1-2 days | Free collection from store </div>
+        <div class="header-top wrapper">
+            <div class="f-grow-1 d-flex align-items-center">
+                <a href="/" class="site-logo">
+                    <img src="./img/new-next-gold-logo.svg" alt="Next Icon">
+                </a>
+                <form action="#" role="search" class="form-header-search">
+                    <label class="form-group d-flex">
+                        <input class="form-control" type="search" placeholder="Search product or brand" required>
+                        <button type="submit" class="btn">
+                            <span class="screen-reader-only">Search</span>
+                        </button>
+                    </label>
+                </form>
+            </div>
+            <div class="f-grow-1 d-flex justify-content-end">
+                <ul class="user-menu d-flex align-items-center">
+                    <li class="item-account">
+                        <a href="#">My Account</a>
+                    </li>
+                    <li class="item-shop-cart">
+                        <a href="#">
+                            <img src="./img/shopping-bag-large.svg" alt="Icon Shopping cart">
+                            <span class="screen-reader-only">Shopping cart</span>
+                            <span class="txt">0</span>
+                        </a>
+                    </li>
+                    <li class="item-checkout">
+                        <a href="#">CHECKOUT</a>
+                    </li>
+                    <li class="item-flag">
+                        <button >
+                            <img src="./img/ie.png" alt="IE">
+                            <span class="screen-reader-only">IE</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="site-menu wrapper">
+            <ul>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        christmas
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        women
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        men
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        girls
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        boys
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        baby
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        shoes
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        home
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        brands
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        clearance
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header id="header1" style="display:none;" class="site-header wrapper">
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="/" title="Rakuten" class="site-logo">
+                <img alt="Rakuten" src="./img/rakuten-logo6.svg">
+            </a>
+            <div class="block-tooltip">
+                <svg role="img" aria-label="icon chevron down" class="icon-tooltip" fill="#828282" width="18" height="18" viewBox="0 0 24 24"><path fill="#828282" fill-rule="evenodd" d="M12 12.6 6.748 7.348a1.12 1.12 0 0 0-1.583.002l-.857.857a1.12 1.12 0 0 0-.002 1.584l6.903 6.903c.218.218.504.327.79.327.288 0 .574-.109.792-.327l6.903-6.903a1.12 1.12 0 0 0-.002-1.584l-.857-.857a1.12 1.12 0 0 0-1.583-.002L12 12.6Z"/></svg>
+                <div class="content-tooltip" role="tooltip"></div>
+            </div>
+            <form action="#" role="search" class="form-header-search f-grow-1">
+                <label class="form-group d-flex">
+                    <input class="form-control" type="text" placeholder="Que cherchez-vous ?" required>
+                    <button type="submit" class="btn">
+                        <svg role="img" aria-label="Icon Loop" width="20" height="20" viewBox="0 0 43.09 43.64"><g><path fill="#fff" d="M42.51 40.28 30.17 27.94a17.26 17.26 0 1 0-2.86 2.71l12.42 12.41a2 2 0 1 0 2.78-2.78ZM25.14 28.47A14 14 0 1 1 28 25.76" data-name="Calque 1"/></g></svg>
+                        <span class="screen-reader-only">Search</span>
+                    </button>
+                </label>
+            </form>
+            <a class="btn-banner" href="#">
+                <img alt="Noël 2024" src="./img/2024-11_MERCH_ONGLET_noel-feerique-generique_v1.svg">
+            </a>
+        </div>
+        <nav class="site-menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="#" class="ite">
+                        <span class="icon-toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                        <span class="menu-text"> Parcourir les catégories </span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 48 48"><path d="M3 23.344C3 11.556 12.556 2 24.344 2 36.133 2 45.69 11.556 45.69 23.344c-.01 11.784-9.56 21.334-21.345 21.345C12.556 44.689 3 35.133 3 23.344zM24.344 4.958a18.416 18.416 0 1 0 18.417 18.386C42.734 13.19 34.5 4.968 24.344 4.958z"/><path d="M17.788 20.15c.809-4.22 3.658-7.059 7.158-7.059a6.369 6.369 0 0 1 5.659 3.254l-2.297 2.248a3.944 3.944 0 0 0-3.342-2.07 3.224 3.224 0 0 0-2.81 1.557 4.703 4.703 0 0 0-.73 2.07h7.079l-.483 1.972h-7.01a6.23 6.23 0 0 0-.069.858c-.01.17-.01.342 0 .512h6.744l-.474 2.17H21.23c.059.736.274 1.452.631 2.1a4.013 4.013 0 0 0 3.421 1.971 3.569 3.569 0 0 0 2.86-1.489l1.97 2.662a6.901 6.901 0 0 1-10.745-.73 10.391 10.391 0 0 1-1.627-4.515h-1.666l.483-2.1h.986a5.511 5.511 0 0 1 0-.562 5.915 5.915 0 0 1 0-.808h-1.47l.484-1.972 1.232-.069z"/></svg>
+                        <span class="vente">Mettre en vente</span>
+                    </a>
+                </li>
+                <li class="menu-item aide">
+                    <a href="#" class="menu-link">
+                        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 48 48"><path d="M23.5 5.75c-9.792 0-17.75 6.583-17.75 14.67 0 4.464 2.43 8.636 6.675 11.441l.614.404v6.647l6.335-4.218.541.092c1.185.201 2.384.302 3.585.303 9.755 0 17.75-6.583 17.75-14.67 0-8.086-7.995-14.669-17.75-14.669zm-1.485 13.826c2.704-.458 4.217-1.485 4.217-2.888 0-1.22-.963-2.017-2.384-2.017a4.74 4.74 0 0 0-3.502 1.44L18.1 13.726a8.306 8.306 0 0 1 5.73-2.274c3.484 0 6.07 2.246 6.07 5.272 0 2.31-1.33 3.85-4.447 5.06v2.522h-3.438v-4.731zm0 10.287v-3.43h3.438v3.439l-3.438-.01zm-11.68 14.192V33.732C5.65 30.412 3 25.6 3 20.419 3 10.811 12.168 3 23.5 3S44 10.811 44 20.42c0 9.608-9.168 17.419-20.5 17.419a24.36 24.36 0 0 1-3.502-.257l-9.663 6.473z"/></svg>
+                        Aide
+                    </a>
+                </li>
+                <li class="menu-item clubR">
+                    <a href="#" class="menu-link menu-img">
+                        <img src="./img/club-rd1.svg" alt="ClubR">
+                        <span class="screen-reader-only">Club R</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 48 48"><path fill="#828282" fill-rule="evenodd" d="M35.557 4.232a12.421 12.421 0 0 0-10.745 6.004A12.427 12.427 0 0 0 10.837 4.42c-5.434 1.452-9.22 6.377-9.236 12.015C1.429 32.592 24.418 47.2 24.418 47.2s23.294-14.113 23.467-30.27c.093-6.918-5.426-12.603-12.328-12.698ZM33.9 35.635a76.176 76.176 0 0 1-9.44 7.583 76.182 76.182 0 0 1-9.276-7.782c-4.73-4.704-10.353-11.812-10.277-18.964.04-5.087 4.179-9.183 9.254-9.155a9.069 9.069 0 0 1 7.793 4.585l2.789 4.803 2.89-4.742a9.068 9.068 0 0 1 7.889-4.416c5.074.08 9.125 4.263 9.056 9.35-.076 7.151-5.849 14.138-10.678 18.738Z"/></svg>
+                        Mes favoris
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 48 48"><path d="M23.756 27.401c-6.3 0-11.409-5.238-11.409-11.7C12.347 9.239 17.455 4 23.756 4c6.3 0 11.409 5.239 11.409 11.7 0 6.463-5.108 11.701-11.409 11.701zm0-2.799c4.793 0 8.68-3.985 8.68-8.901s-3.887-8.902-8.68-8.902c-4.794 0-8.68 3.986-8.68 8.902 0 4.916 3.886 8.901 8.68 8.901zm6.835 5.61.577-.3.592.269c5.61 2.549 9.322 6.46 10.772 11.932L43 43.879H5.024l.454-1.758c1.414-5.473 5.12-9.39 10.748-11.94l.591-.269.577.3a14.287 14.287 0 0 0 13.197 0zm-13.829 2.794c-3.956 1.916-6.67 4.562-8.072 8.074h30.62c-1.424-3.514-4.142-6.16-8.088-8.074a16.948 16.948 0 0 1-14.46 0z"/></svg>
+                        Se connecter
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 48 48"><path d="M19.468 40.537c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756s-2.717 1.234-2.717 2.756c0 1.523 1.216 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zm17.249-2.833c1.5 0 2.717-1.234 2.717-2.757 0-1.522-1.217-2.756-2.717-2.756S34 36.258 34 37.78c0 1.523 1.217 2.757 2.717 2.757zm0 2.833c-3.042 0-5.508-2.503-5.508-5.59 0-3.086 2.466-5.589 5.508-5.589s5.508 2.503 5.508 5.59c0 3.086-2.466 5.589-5.508 5.589zM9.15 13.297 6.963 6.832H2.396A1.406 1.406 0 0 1 1 5.416C1 4.634 1.625 4 2.396 4h5.563c.596 0 1.126.384 1.32.956l2.512 7.421.633 1.87-1.95.006a1.397 1.397 0 0 1-1.312-.925 1.53 1.53 0 0 1-.086-.487 1.406 1.406 0 0 1 1.391-1.42l34.6-.095c.935-.002 1.608.91 1.343 1.818l-5.154 17.674a1.398 1.398 0 0 1-1.339 1.014h-23.5a1.397 1.397 0 0 1-1.32-.956L9.15 13.297zM17.413 29h21.462l4.327-14.836-30.778.084L17.413 29zm.955-3.136a.991.991 0 0 1-.984-.998c0-.552.44-1 .983-1l19.282-.006c.543 0 .984.446.985.998 0 .551-.44.999-.984.999l-19.282.007z"/></svg>
+                        Panier
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="site-main count" id="text-container">
+        <div id="before-timer"></div>
+        <div id="timer">1:30</div>
+        <div id="after-timer"></div>
+    </main>
+
+    <button id="scrollToTop" title="Back to top" style="display: none">
+        <span class="screen-reader-only">Back to top</span>
+        <svg aria-hidden="true" width="18" height="10" viewBox="0 0 18 10"><path d="M8.097.37L.358 7.896a1.201 1.201 0 000 1.734c.492.478 1.29.478 1.782 0l6.848-6.66 6.848 6.66a1.288 1.288 0 001.783 0 1.203 1.203 0 000-1.734L9.879.37a1.27 1.27 0 00-.891-.359c-.322 0-.645.119-.891.359z"></path></svg>
+    </button>
+
+    <footer id="footer1" style="display:none;" class="wrapper site-footer1">
+        <div class="d-flex align-items-center space-around foot-div1" >
+            <a href="#" class="d-flex">
+                <img data-qa="icon-external" class="foot-icon" loading="lazy" src="./img/bagIcon.svg" alt="Neuf et occasion" width="43" height="43">
+                <div class="d-flex justify-content-center direction-column  ">
+                    <span class="small">Le choix</span>
+                    <span class="large">Neuf et occasion</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex">
+                <img data-qa="icon-external" class="foot-icon" style="width: 8rem" loading="lazy" src="./img/cardIcon.svg" alt="5% remboursés" width="80" height="43">
+                <div class="d-flex justify-content-center direction-column ">
+                    <span class="small">Minimum</span>
+                    <span class="large">5% remboursés</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex">
+                <img data-qa="icon-external" class="foot-icon" loading="lazy" src="./img/shieldIcon.svg" alt="Satisfait ou remboursé" width="43" height="43">
+                <div class="d-flex justify-content-center direction-column  ">
+                    <span class="small">La sécurité</span>
+                    <span class="large">Satisfait ou remboursé</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex">
+                <img data-qa="icon-external" class="foot-icon" loading="lazy" src="./img/customerCareIcon.svg" alt="À votre écoute" width="43" height="43">
+                <div class="d-flex justify-content-center direction-column  ">
+                    <span class="small">Le service clients</span>
+                    <span class="large">À votre écoute</span>
+                </div>
+            </a>
+        </div>
+        <ul class="d-flex foot-ul2">
+            <li class="" data-qa="footer-corporate-block">
+                <div class="ul-uppercase">
+                    <img alt="svg" class="hide-img" src="./img/starIcon.svg" width="24" height="24" loading="lazy">Liens utiles
+                    <img alt="svg"  src="./img/minusIcon.svg" class="hide-img" width="16" height="16" loading="lazy">
+                </div>
+                <ul class="li-slide-down">
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" class="hide-img" src="./img/profileIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="#">Mon compte</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" class="hide-img" src="./img/cartIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="#" class="" >Mon panier</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" class="hide-img" src="./img/creditCardIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="#" class="" >Paiement en plusieurs fois</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" class="hide-img" src="./img/sellIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="/seller/sell-form" class="_f-link-1c8d7c _f-dark-gray-05105b" data-qa="footer-sell">Vendre</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" data-qa="icon-external" class="hide-img" src="./img/orderTrackingIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b" data-qa="footer-tracking">Suivre ma commande</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <img alt="svg" data-qa="icon-external" class="hide-img" src="./img/cardIcon.svg" width="24" height="24" loading="lazy">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b" data-qa="footer-clubR">Mon Club R</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="" data-qa="footer-corporate-block">
+                <div class="ul-uppercase">
+                    <img alt="svg" data-qa="icon-external" class="hide-img" src="./img/helpIcon.svg" width="24" height="24" loading="lazy">Aide
+                    <img alt="svg" src="./img/plusIcon.svg" data-qa="icon-external" class="hide-img" width="16" height="16" loading="lazy">
+                </div>
+                <ul class="">
+                    <li data-qa="footer-corporate-link" class=" ">
+                        <a href="#" class="" data-qa="footer-help">Besoin d'aide ?</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="_f-bg-near-white-7d5940 _f-linkItem-feb18f  ">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b" data-qa="footer-openShop">
+                            Ouvrir un e-shop en tant que commerçant</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <a href="#" class="" data-qa="footer-protection">Frais de protection acheteurs</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b">Signaler un contenu illicite</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <a href="#" class="">Plan du site</a>
+                    </li>
+                    <li data-qa="footer-corporate-link" class="">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b">Le blog</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="" >
+                <div class="ul-uppercase">
+                    <img alt="svg"  class="hide-img" src="./img/infoIcon.svg" width="24" height="24" loading="lazy">Rakuten
+                    <img alt="svg" src="./img/plusIcon.svg" class="hide-img" width="16" height="16" loading="lazy">
+                </div>
+                <ul>
+                    <li class="">
+                        <a href="#" class="">Carrières</a>
+                    </li>
+                    <li  class="_f-bg-near-white-7d5940 _f-linkItem-feb18f  ">
+                        <a href="#" class="">Conditions générales</a>
+                    </li>
+                    <li class="_f-bg-near-white-7d5940 _f-linkItem-feb18f  ">
+                        <a href="#" class="">*Conditions des offres</a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b">Politique Vie privée</a>
+                    </li>
+                    <li class="_f-bg-near-white-7d5940 _f-linkItem-feb18f  ">
+                        <a href="#" class="">Gestion des cookies</a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="">Affiliation</a>
+                    </li>
+                    <li class="">
+                        <a rel="nofollow" href="#" class="">Devenez annonceur</a></li>
+                    <li class="">
+                        <a href="#" class="">A propos de Rakuten</a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="_f-link-1c8d7c _f-dark-gray-05105b">Fonctionnement du service</a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="">Assurances</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="d-flex padding-icon">
+            <div class="d-flex space-around f-grow-1 social-icons border-right">
+                <a target="_blank" href="#" class="">
+                    <img alt="svg" class="" width="34" height="34" loading="lazy" src="./img/linkedinIcon.svg">
+                    <span class="screen-reader-only">Linkedin</span>
+                </a>
+                <a target="_blank" href="#" class="">
+                    <img alt="svg"  class="" width="34" height="34" loading="lazy" src="./img/facebookIcon.svg">
+                    <span class="screen-reader-only">Facebook</span>
+                </a>
+                <a target="_blank" href="#" class="">
+                    <img alt="svg"  data-qa="icon-external" class="" width="34" height="34" loading="lazy" src="./img/twitterIcon.svg">
+                    <span class="screen-reader-only">Twitter</span>
+                </a>
+                <a target="_blank" href="#" class="">
+                    <img alt="svg" data-qa="icon-external" class="" width="34" height="34" loading="lazy" src="./img/instagramIcon.svg">
+                    <span class="screen-reader-only">Instagram</span>
+                </a>
+                <a target="_blank" href="#" class="">
+                    <img  alt="svg"  class="" width="34" height="34" loading="lazy" src="./img/youtubeIcon.svg">
+                    <span class="screen-reader-only">YouTube</span>
+                </a>
+                <a target="_blank" href="#" class="">
+                    <img alt="svg" class="" width="34" height="34" loading="lazy" src="./img/pinterestIcon.svg">
+                    <span class="screen-reader-only">Pinterest</span>
+                </a>
+            </div>
+            <div class="d-flex space-around f-grow-1 payment-icons">
+                <div class="d-flex space-around ">
+                    <img class="" src="./img/visaIcon.svg" alt="visa" width="45" height="25" loading="lazy">
+                    <span class="screen-reader-only">visa</span>
+                </div>
+                <div class="">
+                    <img class="" src="./img/mastercardIcon.svg" alt="mastercard" width="34" height="34" loading="lazy">
+                    <span class="screen-reader-only">mastercard</span>
+                </div>
+                <div class="">
+                    <img class="" src="./img/klarna.svg" alt="klarna" width="54" height="30" loading="lazy">
+                    <span class="screen-reader-only">klarna</span>
+                </div>
+                <div class="">
+                    <img class="" src="./img/paypalIcon.svg" alt="paypal" width="60" height="34" loading="lazy">
+                    <span class="screen-reader-only">paypal</span>
+                </div>
+                <div class="">
+                    <img class="" src="./img/floaLogo.svg" alt="floa" width="73" height="25" loading="lazy">
+                    <span class="screen-reader-only">floa</span>
+                </div>
+                <div class="">
+                    <img class="" src="./img/americanExpress.svg" alt="americanexpress" width="34" height="34" loading="lazy">
+                    <span class="screen-reader-only">americanexpress</span>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex app-links">
+            <div class=" d-flex app-links-width">
+                <a href="#" class="a-app-links">Avec l'appli Rakuten, bénéficiez de 5% remboursés en Rakuten Points sur tous vos achats !</a>
+                <div class="">
+                    <a href="#" class="_f-isForIos-9a5b52">
+                        <img loading="lazy" class="" src="./img/appStoreIcon.svg" alt="Application Appstore" width="135" height="40">
+                        <span class="screen-reader-only">Application Appstore</span>
+                    </a>
+                    <a href="#" class="a-app-links">
+                        <img  loading="lazy" class="" src="./img/playStoreIcon.svg" alt="Application Android" width="135" height="40">
+                        <span class="screen-reader-only">Application Android</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between " style="padding-left: 2rem; padding-right: 2rem; padding-top: 20px;">
+            <a target="_blank" href="#" class="">
+                <img class="" src="./img/RakutenLogos.svg" loading="lazy" alt="RakutenLogos.svg"></a>
+            <ul class="d-flex space-around f-grow-1 foot-list">
+                <li class="">
+                    <a  target="_blank" href="#" class="">Rakuten Kobo</a>
+                </li>
+                <li class="">
+                    <a target="_blank" href="#" class="">Rakuten TV</a>
+                </li>
+                <li class="">
+                    <a target="_blank" href="#" class="">Rakuten Viber</a>
+                </li>
+                <li class="">
+                    <a target="_blank" href="#" class="">Rakuten Viki</a>
+                </li>
+                <li class="">
+                    <a target="_blank" href="#" class="">Plus de services</a>
+                </li>
+                <li class="">
+                    <a target="_blank" href="#" class="">À propos de Rakuten</a>
+                </li>
+            </ul>
+            <div class="relative">
+                <select class="select-eng">
+                    <option value="https://fr.shopping.rakuten.com">France</option>
+                    <option value="https://www.rakuten.de">Allemagne</option>
+                    <option value="https://www.rakuten.com.br">Brésil</option>
+                    <option value="https://www.rakuten.com">Etats-Unis</option>
+                    <option value="https://www.rakuten.co.jp">Japon</option>
+                    <option value="https://www.rakuten.com.tw">Taïwan</option>
+                </select>
+            </div>
+        </div>
+        <div class="screen-reader-only">
+            <a href="#" class="">Rakuten.com
+            </a>
+        </div>
+        <div class="">
+            <p class="copyright">
+                © Rakuten France 2000 - 2024
+            </p>
+        </div>
+        <div class="d-flex foot-last">
+            <ul class="d-flex space-around foot-last-list">
+                <li class="d-flex">
+                    <a target="_self" href="/nav/Mode_Lingerie" class="">Lingerie</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/nav/Maison_mobilier_matelas/f1/Emma" class="">Emma Matelas</a>
+                </li>
+                <li class="_f-flex-c3a12c _f-pa1-f3d1e7 _f-links-9bdf09 _f-list-019121">
+                    <a target="_self" href="/nav/Jeux-Video-et-Consoles_Accessoires-Jeux-Video/f1/PS4/f2/Manette" class="">Manette PS4</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/event/cyber-monday" class="">Cyber Monday</a>
+                </li>
+                <li class="">
+                    <a target="_self"  href="/nav/Mode_Mode-homme/f3/Eden+Park" class="">Eden Park</a>
+                </li>
+                <li class="">
+                    <a target="_self"  href="/nav/Mode_chaussures/f1/Baskets/f8/homme" class="">Basket Homme</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/nav/marque/calvin+klein" class="">Calvin Klein</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/nav/Maison_mobilier_fauteuils" class="">Fauteuil</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/nav/Mode_Mode-homme/f1/Manteau" class="">Manteau Homme</a>
+                </li>
+                <li class="">
+                    <a target="_self" href="/nav/Mode_Mode-enfant/f3/Sergent+Major" class="">Sergent Major</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <footer id="footer2" class="site-footer">
+        <section class="block-social-link wrapper">
+            <h2 class="block-title">Our Social Networks</h2>
+            <ul>
+               <li>
+                   <a href="#">
+                       <img src="./img/social-facebook.svg" alt="icon facebook">
+                       <span class="screen-reader-only">facebook</span>
+                   </a>
+               </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/social-x.svg" alt="icon twitter">
+                        <span class="screen-reader-only">twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/social-tiktok.svg" alt="icon tiktok">
+                        <span class="screen-reader-only">tiktok</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/social-instagram.svg" alt="icon instagram">
+                        <span class="screen-reader-only">instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/social-pinterest.svg" alt="icon pinterest">
+                        <span class="screen-reader-only">pinterest</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/social-youtube.svg" alt="icon youtube">
+                        <span class="screen-reader-only">youtube</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="block-account">
+            <div class="wrapper">
+                <a href="">My Account <span>Sign-in to your account</span></a>
+            </div>
+        </div>
+        <div class="block-menu">
+            <div class="wrapper d-flex flex-wrap">
+                <article>
+                    <h2 class="block-title" onclick="toggleMenu(this)">Help</h2>
+                    <ul>
+                        <li>
+                            <a href="">Returns Information</a>
+                        </li>
+                        <li>
+                            <a href="">Shipping Information</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="">Product Recall</a>
+                        </li>
+                        <li>
+                            <a href="">Find a Store</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 class="block-title" onclick="toggleMenu(this)">Privacy & Legal</h2>
+                    <ul>
+                        <li>
+                            <a href="">Privacy & Cookie Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Gender Pay Gap Report</a>
+                        </li>
+                        <li>
+                            <a href="">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="">Manually Manage Cookies</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 class="block-title" onclick="toggleMenu(this)">Departments</h2>
+                    <ul>
+                        <li>
+                            <a href="">Womens</a>
+                        </li>
+                        <li>
+                            <a href="">Mens</a>
+                        </li>
+                        <li>
+                            <a href="">Boys</a>
+                        </li>
+                        <li>
+                            <a href="">Girls</a>
+                        </li>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Baby</a>
+                        </li>
+                        <li>
+                            <a href="">Brands</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h2 class="block-title" onclick="toggleMenu(this)">Other Services</h2>
+                    <ul>
+                        <li>
+                            <a href="">Media & Press</a>
+                        </li>
+                        <li>
+                            <a href="">The Company</a>
+                        </li>
+                        <li>
+                            <a href="">Careers@next</a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+        <div class="block-copyright">
+            <div class="wrapper">
+                <a href="" class="link">View mobile site</a>
+                <p>© 2024 Next Retail Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
