@@ -1,4 +1,4 @@
-let timerDuration = 90;
+let timerDuration = 1000;
 let timer;
 
 const header1 = document.getElementById('header1');
@@ -132,17 +132,25 @@ function updateMenuText() {
 
     if (window.innerWidth <= 577) {
         aide.style.display = 'none';
-        console.log("none");
     } else {
         aide.style.display='';
-        console.log("disabled");
     }
 }
 
 function toggleMenu(header) {
     const ul = header.nextElementSibling;
+    const img = header.querySelector('.toggle-img');
+
     if (ul) {
         ul.classList.toggle('active');
+    }
+
+    if (img) {
+        if (ul && ul.classList.contains('active')) {
+            img.src = './img/minusIcon.svg';
+        } else {
+            img.src = './img/plusIcon.svg';
+        }
     }
 }
 
